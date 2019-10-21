@@ -1,0 +1,52 @@
+{
+  "name": "kristian.co",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "BUNDLE_ANALYZE=both yarn build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksmandersen/kristian.co.git"
+  },
+  "author": "Kristian Andersen <hello@kristian.co>",
+  "license": "CC BY-SA 3.0",
+  "homepage": "https://kristian.co",
+  "dependencies": {
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "marked": "^0.7.0",
+    "next": "9.1.1",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "styled-components": "^4.4.0",
+    "styled-normalize": "^8.0.6"
+  },
+  "devDependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.3.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-optipng": "^7.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.3",
+    "prettier": "^1.16.4",
+    "raw-loader": "^3.1.0"
+  }
+}
