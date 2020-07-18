@@ -19,7 +19,7 @@
   "homepage": "https://kristian.co",
   "dependencies": {
     "js-yaml": "^3.13.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "marked": "^0.7.0",
     "next": "9.1.1",
     "react": "16.10.2",
